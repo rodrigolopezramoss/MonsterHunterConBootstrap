@@ -1,0 +1,95 @@
+/**Color marrón para el fondo que el bootstrap no me deja ponerlo en el body{}**/
+.bg-marroncito{
+    background-color: rgba(155, 133, 105, 0.575);
+  }
+
+  /**Color violeta para navbar**/
+  .bg-violet {
+    background-color: rgba(21, 59, 129, 0.822);
+  }
+  /**navbar**/
+  nav{
+    top: 0;
+    z-index: 99;
+  }
+
+  /**jumbotron**/
+  .jumbotron{
+    background-image: url("../imagenes/portada.jpg");
+    background-size: cover;
+    background-position:center;
+    height: 90vh;
+  }
+
+  #contraste-jumbotron{background-color: rgba(105, 162, 236, 0.33);
+    margin:0 auto;
+  }
+  
+  /**Defino un parámetro de margin en concreto**/
+  .mt-6{margin-top: 20vh;}
+  
+  /*id para poner un color marron en los textos extensibles y otros en los que convenía*/
+  #felyne{
+    background-color: rgba(155, 133, 105, 0.575);
+  }
+  
+  /**Estilo de la presentacion**/
+  #presentacion{
+    background-image: linear-gradient(rgba(155, 133, 105, 0), rgba(155, 133, 105, 0.575) )
+  }
+  
+  /**Estilo de las cartas**/
+  .carta{
+    background-color: rgba(68, 48, 23, 0.36);
+          
+  }
+  
+  .card-title{
+    color: white;
+  }
+
+  #arma{
+    background-color: rgba(155, 133, 105, 0.575);
+  }
+
+  #armas{
+    background-image: url("../imagenes/fondo_2.jpg");    
+    background-size: 50%;
+  }
+  
+  /**Estilo para el apartado monstruos**/
+  #monstruos{
+    background-color: rgba(155, 133, 105, 0.575)
+  }
+
+  #bestias{
+    background-color: rgba(155, 133, 105, 0.575)
+  }  
+
+  /**Estilo para la galería**/  
+  #galeria{
+    background-image: linear-gradient(rgb(155, 133, 105, 0.575), rgba(155, 133, 105, 0) )
+   }
+  
+  /**Estilo para comentario**/
+  #comentario{
+    background-image: url("../imagenes/glavenus.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position:center;
+  }
+        
+  /******** Footer style **********/
+  footer ul {
+    list-style-type: none;
+  }
+  
+  footer ul li a {
+    color:white;
+  }
+  
+  footer ul  {
+    margin:0;
+    padding:0;
+  }
+  
